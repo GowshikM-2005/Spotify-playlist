@@ -1,0 +1,7 @@
+docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
+
+
+ The purpose of this command is to run the spotify-auth-proxy Docker image,
+  which likely provides an authentication proxy service for Spotify. 
+  The environment variables specified in the .
+  env file are used to configure the container, and the service is exposed on port 27228.
